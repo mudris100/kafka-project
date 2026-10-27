@@ -84,7 +84,7 @@ curl -X POST http://localhost:8080/api/orders \
            "items": [
              {"itemId": 101, "quantity": 2, "itemName": "BigMac"},
              {"itemId": 102, "quantity": 2, "itemName": "Cola"},
-             {"itemId": 103, "quantity": 3, "itemName": "Potato fries"},
+             {"itemId": 103, "quantity": 3, "itemName": "Potato fries"}
            ]
          }' | jq
 ```
